@@ -1,198 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Brian Portfolio Website</title>
-    </head>
-    <body>
-       
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Brian Portfolio Website</title>
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo">Brian Kibet Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#edu" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#edu" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Brian Kibet Murkong Tandui</span>
+                    <br />Android Flutter Developer
+                </h1>
+                <h1 class="home__title-color"></h1>
+
+                <a href="#contact" class="button">Contact</a>
+                <a href="https://youtu.be/LVyX1rzTHRE?si=qfhYT_YttCNxAylB"
+                    class="button">Video</a>
+                <a href="https://github.com/murkong/portflio_data/upload"
+                    class="button">Resumes</a>
+                <a href="raw.github.com/murkong/portflio_data/upload/English_curriculum _vitae.pdf"
+                    class="button">Resumes</a>
+                    <a href="https://github.com/murkong/impaired_app"
+                    class="button">Project</a>
+
+                <!-- <a href="https://drive.google.com/file/d/1x9LjY56Fs6-zWKUV7oHdByoqE1ynpYX1/view?usp=drive_link"
+                    class="button">Resume2</a>
+                <a href="https://drive.google.com/file/d/1lJqh8lXkBKApqkIcKmx07ejVTDfvpR7j/view?usp=drive_link"
+                    class="button">Resume3</a> -->
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/brian-kibet-147370272" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/murkong" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img ">
+                    <img src="assets/img/photobrian.jpeg" alt="">
+                </div>
+
                 <div>
-                    <a href="#home" class="nav__logo">Brian Kibet Portfolio</a>
+                    <h2 class="about__subtitle">I'am Brian Kibet,</h2>
+                    <p class="about__text">
+                        A Full-Stack App and Web Developer with ability to adapt to rapid
+                        environmental changes, learn from mistakes and collaborate towards
+                        achieving set goals. Worked through hours of database management
+                        in Mongodb, Firebase and sql, coding in JavaScript, NodeJs, ReactJs,
+                        Mobile App Development in Flutter and Java. I am eager to tackle
+                        App and Web development challenges and projects requiring new skills.</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul style="color: white; "class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#edu" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#edu" class="nav__link">Experience</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main" >
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Brian Kibet Murkong Tandui</span> <br/>Android Flutter Developer
-                        </h1>
-                        <h1 class="home__title-color"></h1>
-
-                    <a href="#contact" class="button">Contact</a>
-                    <a href="https://drive.google.com/file/d/1rhC3dkFfMi9Lh66Vaywt-O17FAGjFkeL/view?usp=drive_link" class="button">Video1</a>
-                    <a href="https://drive.google.com/file/d/10Yz_VXdJIzjFSetLc9PJbh4vI9A0f27B/view?usp=drive_link" class="button">Video2</a>
-                    <a href="https://drive.google.com/file/d/1sHjDPKJVhagyeCR8coq00ObtPnXqXlvm/view?usp=drive_link" class="button">Resume</a>
-                    <a href="https://drive.google.com/file/d/1x9LjY56Fs6-zWKUV7oHdByoqE1ynpYX1/view?usp=drive_link" class="button">Resume2</a>
-                    <a href="https://drive.google.com/file/d/1lJqh8lXkBKApqkIcKmx07ejVTDfvpR7j/view?usp=drive_link" class="button">Resume3</a>
-
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/brian-kibet-147370272" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/murkong" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-               
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img ">
-                        <img src="assets/img/photobrian.jpeg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Brian Kibet,</h2>
-                        <p class="about__text">
-                            A Full-Stack App and Web Developer with ability to adapt to rapid 
-                            environmental changes, learn from mistakes and collaborate towards 
-                            achieving set goals. Worked through hours of database management 
-                            in Mongodb, Firebase and sql, coding in JavaScript, NodeJs, ReactJs, 
-                            Mobile App Development in Flutter and Java. I am eager to tackle 
-                            App and Web development challenges and projects requiring new skills.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">I am a skilled Full Stack developer with expertise in creating dynamic and user-friendly websites.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">I am a skilled Full Stack developer with expertise in creating dynamic and
+                        user-friendly websites.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">Flutter Cross-Platform</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
+                        <div class="skills__bar skills__html">
+
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">HTML</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Data Analysis</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Application Language</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Data analysis</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">89%</span>
-                            </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/black1.jpg" alt="" class="skills__img">
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">Flutter Cross-Platform</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Data Analysis</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Application Language</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Data analysis</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">89%</span>
+                        </div>
                     </div>
                 </div>
-            </section>
+
+                <div>
+                    <img src="assets/img/black1.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
         <!-- =====CERTIFICATIONS===== -->
-            <section class="work section" id="edu">
-                <h2 class="section-title">Education and Certifications</h2>
+        <section class="work section" id="edu">
+            <h2 class="section-title">Education and Certifications</h2>
 
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/dekut.png" alt="">
-                        <p  style="text-align: center; font:bold;" style="padding-top: 20px;font:bold;">Bachelors of Science in Information Technology </p>
-                         <p style="text-align: center; font:bold;"> September 2020 - current</p>
-                    </a>
-                    <a href="" class="work__img">
-                        
-                        <img src="assets/img/Instana_by_IBM_Technical_Sales_Intermediate_Badge20230531-28-topzka_page-0001.jpg" alt="align:center;">
-                        <p style="text-align: center; font:bold;">Technical Sales</p>
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/NSE_1_Certification_page-0001.jpg" alt="">
-                        <p style="text-align: center; font:bold;">NSE 1</p>
-                    </a>
-                    <!-- <a href="" class="work__img">
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/dekut.png" alt="">
+                    <p style="text-align: center; font:bold;" style="padding-top: 20px;font:bold;">Bachelors of Science
+                        in Information Technology </p>
+                    <p style="text-align: center; font:bold;"> September 2020 - current</p>
+                </a>
+                <a href="" class="work__img">
+
+                    <img src="assets/img/Instana_by_IBM_Technical_Sales_Intermediate_Badge20230531-28-topzka_page-0001.jpg"
+                        alt="align:center;">
+                    <p style="text-align: center; font:bold;">Technical Sales</p>
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/NSE_1_Certification_page-0001.jpg" alt="">
+                    <p style="text-align: center; font:bold;">NSE 1</p>
+                </a>
+                <!-- <a href="" class="work__img">
                         <img src="IBM_Supply_Chain_Intelligence_Suite_Technical_Sales_Intermediate_Badge20230531-28-5mklk8_page-0001.jpg" alt="">
                         <p style="text-align: center; font:bold;">Supply Chain Suite</p>
                     </a>
@@ -200,46 +215,47 @@
                         <img src="IBM_Power_Systems_Virtual_Server_Technical_Sales_Intermediate_Badge20230604-28-v0xb6j_page-0001.jpg" alt="">
                         <p style="text-align: center; font:bold;">IBM Power Systems</p>
                     </a> -->
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-            
-                <div class="contact__container bd-grid">
-                    <div class="contact__details">
-                        <p>Email: briankibettm@gmail.com</p>
-                        <p>Phone: +254700865533</p>
-                        <p>Location: Nairobi, Kenya</p>
-                    </div>
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-            
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Brian Kibet Murkong Tandui</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/brianmurkong" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; 2024. All rigths reserved</p>
-        </footer>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__details">
+                    <p>Email: briankibettm@gmail.com</p>
+                    <p>Phone: +254700865533</p>
+                    <p>Location: Nairobi, Kenya</p>
+                </div>
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Brian Kibet Murkong Tandui</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/brianmurkong" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2024. All rigths reserved</p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
