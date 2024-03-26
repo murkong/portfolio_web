@@ -35,6 +35,18 @@
     --smaller-font-size: .875rem;
   }
 }
+                /* Embedding
+                embedding */
+                .list-inline-item {
+                  display: inline;
+                  margin-right: 10px; /* Adjust as needed for spacing between items */
+              }
+              
+              .nav-link {
+                  color: #007bff; /* Adjust the color as needed */
+                  text-decoration: none;
+                  font-weight: bold; /* Adjust the font weight as needed */
+              }
 
 /*===== BASE =====*/
 *, ::before, ::after {
